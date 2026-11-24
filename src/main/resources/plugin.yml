@@ -1,0 +1,14 @@
+name: Rounds
+main: cz.rounds.RoundsPlugin
+version: ${version}
+api-version: "${apiVersion}"
+description: Valorant-style round minigame (2 teams, 1 life per round, first to 5)
+commands:
+  rounds:
+    description: Rounds minigame
+    aliases: [mm]
+    usage: /rounds <join|leave|start|stop|setlobby|setspawn>
+permissions:
+  rounds.admin:
+    description: Spravovat minihru
+    default: op
